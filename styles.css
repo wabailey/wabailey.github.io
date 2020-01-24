@@ -136,10 +136,15 @@ a {
 }
 
 .wb-nav {
-    float: right;
+    margin-right: 6%;
+    margin-left: auto;
+    display: flex;
+    position: relative;
+}
+
+.wb-nav-list {
     margin-top: 19px;
     margin-bottom: 19px;
-    margin-right: 80px;
 }
 
 .wb-nav li {
@@ -154,25 +159,26 @@ a {
 }
 
 .wb-nav-container {
+    display: flex;
     background-color: #101b1780;
     box-shadow: inset 0px -2px 0px #e3f6f00a;
     backdrop-filter: blur(20px);
-    position: relative;
     z-index: 1000;
-    padding: 0;
     height: 56px;
     width: 100%;
-    left: 0;
-    right: 0;
+}
+
+#header-logo, #footer-logo {
+    height: 32px;
+    width: auto;
 }
 
 .wb-logo {
-    float: left;
-    border: 0;
-    margin: 0;
-    position: relative;
-    height: 32px;
-    width: auto;
+    display: flex;
+}
+
+.wb-logo-name {
+    visibility: hidden;
 }
 
 #img-1, #img-3 {
@@ -204,12 +210,10 @@ a {
 }
 
 .social-links-2 {
-    margin-top: 44px;
-    margin-bottom: 64px;
     margin-right: 6%;
-    margin-left: 90%;
+    margin-left: auto;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     text-align: center;
 }
 
@@ -221,10 +225,47 @@ a {
     margin-right: 16px;
 }
 
+#twitter-footer-icon, #insta-footer-icon {
+    margin-right: 24px;
+}
+
 .twitter-1, .insta-1 {
     margin-right: 40px;
 }
 
 .insta-1, .linkedin-1 {
     margin-left: 40px;
+}
+
+.footer-content {
+    display: flex;
+    margin-top: 44px;
+    margin-bottom: 24px;
+    height: 32px;
+}
+
+.footer-logo {
+    margin-left: 6%;
+    margin-right: auto;
+}
+
+.header-logo {
+    margin-left: 6%;
+    margin-right: auto;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.copy {
+    margin: auto auto 1em 6%;
+}
+
+.copy h5 {
+    color: #e3f6f0;
+    position: relative;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 160%;
+    letter-spacing: -0.015em;
 }
