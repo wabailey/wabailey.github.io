@@ -169,7 +169,7 @@ a {
 }
 
 #header-logo, #footer-logo {
-    height: 32px;
+    height: 46px;
     width: auto;
 }
 
@@ -239,9 +239,9 @@ a {
 
 .footer-content {
     display: flex;
-    margin-top: 44px;
+    margin-top: 32px;
     margin-bottom: 24px;
-    height: 32px;
+    height: 46px;
 }
 
 .footer-logo {
@@ -252,8 +252,8 @@ a {
 .header-logo {
     margin-left: 6%;
     margin-right: auto;
-    margin-top: 12px;
-    margin-bottom: 12px;
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 
 .copy {
