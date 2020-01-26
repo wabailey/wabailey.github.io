@@ -59,6 +59,16 @@ h4 {
     letter-spacing: -0.015em;
 }
 
+h5 {
+    color: rgba(227, 246, 240, 0.25);
+    position: relative;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 160%;
+    letter-spacing: -0.015em;
+}
+
 a {
     color: #e3f6f0;
 }
@@ -160,8 +170,8 @@ a {
 
 .wb-nav-container {
     display: flex;
-    background-color: #101b1780;
-    box-shadow: inset 0px -2px 0px #e3f6f00a;
+    background: rgba(26, 48, 40, 0.5);
+    box-shadow: inset 0px -2px 0px rgba(255, 255, 255, 0.03);
     backdrop-filter: blur(20px);
     z-index: 1000;
     height: 56px;
@@ -260,12 +270,18 @@ a {
     margin: auto auto 1em 6%;
 }
 
-.copy h5 {
-    color: #e3f6f0;
-    position: relative;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 160%;
-    letter-spacing: -0.015em;
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
 }
